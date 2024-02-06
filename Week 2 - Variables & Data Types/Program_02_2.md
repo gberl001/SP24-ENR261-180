@@ -37,7 +37,7 @@ name = "";
 assistedBy = "";
 fprintf("Output for %s written by %s, with assistance from %s.\n\n", programName, name, assistedBy)
 
-format bank.   % Outputs numbers with 2 decimal places
+format bank   % Outputs numbers with 2 decimal places
 
 % Your Code here...
 
