@@ -143,13 +143,13 @@ while(shouldContinue)  % We could also use while(shouldContinue == true) if that
             fprintf("You chose to move forward.\n\n")
             shouldContinue = false;
         case 2
-            fprintf("You chose to move forward.\n\n")
+            fprintf("You chose to move backward.\n\n")
             shouldContinue = false;
         case 3
-            fprintf("You chose to move forward.\n\n")
+            fprintf("You chose to move left.\n\n")
             shouldContinue = false;
         case 4
-            fprintf("You chose to move forward.\n\n")
+            fprintf("You chose to move right.\n\n")
             shouldContinue = false;
         otherwise
             fprintf("You entered an invalid choice, try again.\n\n")
