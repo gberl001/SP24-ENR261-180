@@ -7,7 +7,7 @@ Perform the following operations with the resistor data using logical vectors wh
 * Find the positional number and corresponding resistance value for all resistors in the batch that fall above the upper bound of mean + 1 std or below the lower bound of mean - 1 std.
 * Output the number of resistors rejected and the batch number.
 * Output the position number and corresponding resistance value for all resistors rejected in the batch.
-* If a batch has any rejected resistors all rejected resistors must be recreated using the `randn()` function and used to replace the rejected resistorin the original vector of resistors.
+* If a batch has any rejected resistors all rejected resistors must be recreated using the `randn()` function and used to replace the rejected resistoring the original vector of resistors.
 * Repeat steps 2-5 until there are no resistors outside the lower and upper bounds.
 
 * Name the program file **Program\_05\_3.m**
