@@ -17,11 +17,11 @@ function result = inefficientSort(x)
 %     From the Command Window, run the following lines of code
 %     x = [1:10, -20:3:-5, 12:2:36];
 %     sortedX = inefficientSort(x);
-%     lenX = length(x);
-%     result = zeros(1,lenX);
 % 
 %   See also SORT
 
+lenX = length(x);
+result = zeros(1,lenX);
 for n=1:lenX
     % Get the position of the maximum value
     maxValPos = getMaxValPos(x);
