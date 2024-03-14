@@ -88,8 +88,9 @@ legend('Velocity','Peak Velocity')
 ```
 ## Plot 3 - Velocity in the X Direction
 The following will plot the velocity x component in the third subplot (lower left).
-subplot(2,2,3) % graph number 3 is now active (2nd row, 1st column)
 ```Matlab
+subplot(2,2,3) % graph number 3 is now active (2nd row, 1st column)
+
 % The following plot command creates a line graph of the t and vx vectors
 % and also plots the point (tPeak,vxPeak) with a red asterisk
 plot(t,vx,tPeak,vxPeak,'r*')
