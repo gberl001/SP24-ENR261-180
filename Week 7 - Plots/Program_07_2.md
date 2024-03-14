@@ -9,9 +9,11 @@ y = [18 38 49  82 102 113 127 137  146];
 * Determine the functional form of an (x,y) dataset by creating plots and figures
 * Create a Figure 1 window
 * Create a Figure 2 window
+
 Figure 1:
 * Have four plots, plot(x,y), loglog(x,y), semilogx(x,y), and semilogy(x,y)
 * Provide a title, and axis labels for all four plots using your previously generated function `labelPlot`
+
 Figure 2:
 * Use `polyfit()` along with the correct linear model to find the `m` and `b` coefficients.
 * Provide the functional form, along with numerical values of the best fit coefficients in a text object on the plot.
