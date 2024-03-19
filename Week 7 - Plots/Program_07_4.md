@@ -1,6 +1,7 @@
 # Program\_07\_4
 ## Requirements
 Create an x,y `meshgrid` and evaluate `z` to form a surface plot for the following equation. Satisfy the following requirements.
+TODO: Fix the following equation image, -1.5 should be multiplied by the sqrt of x^2+y^2, this is not an `x` value.
 ![Program_07_4_Equation.png](images/Program_07_4_Equation.png)
 * Create a `meshgrid` with `x=y=-3.5:0.25:3.5`
 * Create a `surf` plot with the resulting `x`, `y`, and `z` values
