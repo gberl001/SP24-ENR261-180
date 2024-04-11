@@ -7,9 +7,6 @@ Create a Graphical User Interface that meets the following requirements:
 * When a plot button is pushed, it shall plot, label, and title the data accordingly
 * Has a button labeled "Clear Plots" renamed to btnClearPlots
 * The Clear Plots button shall clear both plots of their data, labels, and titles
-* Provides the summed result of two inputs via a button press and displays with a label field. 
-* The label field shall be renamed to lblResult
-* The label field shall be blank when the GUI first opens
 * All GUI objects shall be renamed using the `prefixName` convention
 
 Save the file as **Program_09_2.mlapp**
