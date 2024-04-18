@@ -1,7 +1,7 @@
 function annotate(modelName)
 % ANNOTATE Add block name annotations for all blocks in a Simulink model.
 %
-%   ANNOTATE(modelName) adds a block name annotations for all blocks in 
+%   ANNOTATE(modelName) adds block name annotations for all blocks in 
 %   the Simulink model specified by 'modelName'.
 %
 %   Example:
