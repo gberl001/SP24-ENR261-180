@@ -119,7 +119,7 @@ fprintf("y as a function of t as shown.\n\n")
 fprintf("Example:\n")
 fprintf("syms y(t)\n")
 fprintf("odeDyDt = dsolve(diff(y, t) == 4*t + 2*y) <--- DiffEq of t with respect to t\n")
-fprintf("odeDyDt2 = dsolve(diff(y, t) == 4*t + 2*y) <--- """" with initial cond y(0) = 5\n")
+fprintf("odeDyDt2 = dsolve(diff(y, t) == 4*t + 2*y, y(0) == 5) <--- """" with initial cond y(0) = 5\n")
 fprintf("-----------------------------------------------------------------------\n")
 syms y(t)
 % TODO: 
